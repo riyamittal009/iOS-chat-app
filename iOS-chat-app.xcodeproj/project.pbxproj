@@ -11,6 +11,7 @@
 		9DD124C928A59787008C55BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD124C828A59787008C55BC /* ContentView.swift */; };
 		9DD124CB28A5978C008C55BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD124CA28A5978C008C55BC /* Assets.xcassets */; };
 		9DD124CE28A5978C008C55BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD124CD28A5978C008C55BC /* Preview Assets.xcassets */; };
+		9DD124D928A598AB008C55BC /* DateHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD124D828A598AB008C55BC /* DateHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9DD124C828A59787008C55BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9DD124CA28A5978C008C55BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DD124CD28A5978C008C55BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DD124D828A598AB008C55BC /* DateHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,10 @@
 			isa = PBXGroup;
 			children = (
 				9DD124C628A59787008C55BC /* iOS_chat_appApp.swift */,
-				9DD124C828A59787008C55BC /* ContentView.swift */,
+				9DD124D428A5984F008C55BC /* Views */,
+				9DD124D528A59867008C55BC /* Models */,
+				9DD124D628A5986F008C55BC /* ViewModels */,
+				9DD124D728A59878008C55BC /* Helpers */,
 				9DD124CA28A5978C008C55BC /* Assets.xcassets */,
 				9DD124CC28A5978C008C55BC /* Preview Content */,
 			);
@@ -65,6 +70,36 @@
 				9DD124CD28A5978C008C55BC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9DD124D428A5984F008C55BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9DD124C828A59787008C55BC /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9DD124D528A59867008C55BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9DD124D628A5986F008C55BC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9DD124D728A59878008C55BC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9DD124D828A598AB008C55BC /* DateHelpers.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +174,7 @@
 			files = (
 				9DD124C928A59787008C55BC /* ContentView.swift in Sources */,
 				9DD124C728A59787008C55BC /* iOS_chat_appApp.swift in Sources */,
+				9DD124D928A598AB008C55BC /* DateHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
