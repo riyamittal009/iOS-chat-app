@@ -12,6 +12,10 @@
 		9DD124CB28A5978C008C55BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD124CA28A5978C008C55BC /* Assets.xcassets */; };
 		9DD124CE28A5978C008C55BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD124CD28A5978C008C55BC /* Preview Assets.xcassets */; };
 		9DD124D928A598AB008C55BC /* DateHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD124D828A598AB008C55BC /* DateHelpers.swift */; };
+		9DD124DB28A59925008C55BC /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD124DA28A59925008C55BC /* ChatViewModel.swift */; };
+		9DD124DD28A59940008C55BC /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD124DC28A59940008C55BC /* Models.swift */; };
+		9DD124DF28A5995A008C55BC /* ChatRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD124DE28A5995A008C55BC /* ChatRowView.swift */; };
+		9DD124E128A59980008C55BC /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD124E028A59980008C55BC /* ChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		9DD124CA28A5978C008C55BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DD124CD28A5978C008C55BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9DD124D828A598AB008C55BC /* DateHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelpers.swift; sourceTree = "<group>"; };
+		9DD124DA28A59925008C55BC /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		9DD124DC28A59940008C55BC /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		9DD124DE28A5995A008C55BC /* ChatRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRowView.swift; sourceTree = "<group>"; };
+		9DD124E028A59980008C55BC /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				9DD124C828A59787008C55BC /* ContentView.swift */,
+				9DD124DE28A5995A008C55BC /* ChatRowView.swift */,
+				9DD124E028A59980008C55BC /* ChatView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -83,6 +93,7 @@
 		9DD124D528A59867008C55BC /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9DD124DC28A59940008C55BC /* Models.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -90,6 +101,7 @@
 		9DD124D628A5986F008C55BC /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				9DD124DA28A59925008C55BC /* ChatViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -174,7 +186,11 @@
 			files = (
 				9DD124C928A59787008C55BC /* ContentView.swift in Sources */,
 				9DD124C728A59787008C55BC /* iOS_chat_appApp.swift in Sources */,
+				9DD124DB28A59925008C55BC /* ChatViewModel.swift in Sources */,
+				9DD124DF28A5995A008C55BC /* ChatRowView.swift in Sources */,
+				9DD124E128A59980008C55BC /* ChatView.swift in Sources */,
 				9DD124D928A598AB008C55BC /* DateHelpers.swift in Sources */,
+				9DD124DD28A59940008C55BC /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
